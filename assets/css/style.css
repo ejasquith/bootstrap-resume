@@ -199,6 +199,17 @@ footer {
     padding: 20px;
 }
 
+/* Three Reasons */
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e67e22;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
+
 /* Hover.css */
 
 .hvr-sweep-to-bottom:before {
