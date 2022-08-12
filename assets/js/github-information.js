@@ -53,7 +53,7 @@ function fetchGitHubInformation(event) {
 
     $.when(
         $.getJSON(`https://api.github.com/users/${username}`),
-        $.getJSON(`https://api.github.com/usrs/${username}/repos`)
+        $.getJSON(`https://api.github.com/users/${username}/repos`)
     ).then(
         function (response, secondResponse) {
             var userData = response[0];
